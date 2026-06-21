@@ -22,6 +22,9 @@
   "keywords": ["express", "handlebars", "mvc", "jest", "ecommerce"],
   "author": "",
   "license": "ISC",
+  "engines": {
+  "node": "24.14.0"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "express": "^5.2.1",
