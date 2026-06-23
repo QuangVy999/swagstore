@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const products = [
   {
-    file: "balo.png",
+    file: ["baloumt.png", "balofpt.png", "balogiga.png"],
     label: "Sauce Labs Backpack",
     bg: "#1a1a2e",
     accent: "#c8a96e",
@@ -15,7 +15,7 @@ const products = [
     `,
   },
   {
-    file: "den.png",
+    file: ["den.png", "den2.png"],
     label: "Sauce Labs Bike Light",
     bg: "#0d2137",
     accent: "#4db8ff",
@@ -32,7 +32,7 @@ const products = [
     `,
   },
   {
-    file: "aothun.png",
+    file: ["aoumt.png", "aofpt.png", "aohu.png"],
     label: "Bolt T-Shirt",
     bg: "#1c1c1c",
     accent: "#f5a623",
@@ -45,7 +45,7 @@ const products = [
     `,
   },
   {
-    file: "aokhoac.png",
+    file: ["aokhoac1.png", "aokhoac2.png", "aokhoac3.png"],
     label: "Fleece Jacket",
     bg: "#1a0d2e",
     accent: "#9b59b6",
@@ -60,7 +60,7 @@ const products = [
     `,
   },
   {
-    file: "onesie.png",
+    file: ["onesie.png", "onesiejo.png"],
     label: "Sauce Labs Onesie",
     bg: "#2d0a0a",
     accent: "#e74c3c",
